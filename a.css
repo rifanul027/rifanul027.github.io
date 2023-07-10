@@ -1,0 +1,136 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: #02680a;
+  color: #eaeaea;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  margin-right: auto;
+  display: flex;
+  gap: 6px;
+}
+
+.logo-img {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.logo-title {
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+
+.logo:hover {
+  transform: rotate(2deg);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 70px 0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.img-foto {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  max-width: 500px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #02680a;
+  color: #eaeaea;
+}
+
+.work {
+  margin: 0 auto;
+  padding: 30vh 0;
+}
+.work h2 {
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
+.work .kerja .card {
+  width: calc(33% - 30px);
+  padding: 40px 5px;
+  margin-left: 10px;
+  color: white;
+  border: 3px solid;
+  border-color: #ca003a transparent;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+}
+.work .kerja1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.work .kerja2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.work .kerja3 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.work a {
+  font-family: "Raleway", sans-serif;
+}
+
+.work .box {
+  text-align: center;
+}
+
+.work a:hover {
+  color: green;
+  font-family: "Raleway", sans-serif;
+}
+
+.margin {
+  margin-bottom: 20px;
+}
